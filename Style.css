@@ -1,0 +1,98 @@
+body{
+    background-image: url(Images/space.jpg);
+} 
+
+.image{
+    position: absolute;   
+    top: 200px;
+    right: 190px;
+}    
+
+.disks{
+    position: absolute;
+    top: 300px;
+    right: 383px;   
+    width: 550px;
+    height: 100px;
+    padding: 10px;
+}
+
+.leftdisks{     
+    position: absolute;
+    top: 200px;
+    left: 220px;
+    width: 150px;
+    height: 200px;
+}
+
+.rightdisks{  
+    position: absolute;
+    top: 200px;
+    right: 210px;
+    width: 150px;
+    height: 200px;  
+}
+
+.disk {
+    border: 1px solid black;
+    width: 60px;
+    height: 60px;
+    background-image: url(Images/disk.png);
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.barbellisready{    
+    position: absolute;
+    top: 100px;
+    right: 250px;   
+    width: 700px;
+    height: 100px;    
+}
+
+.weightnum{
+    font-size: 30px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 12px;    
+    text-shadow: 1px 1px white,
+                 2px 2px #777;
+    color: rgb(48, 0, 179);
+    transition: all 1s;
+}
+    .weightnum:hover {
+        text-shadow: 1px 1px white,
+                 2px 2px tomato;
+        color: crimson;
+    }
+
+
+a{
+    position: absolute;
+    right: 220px;    
+    visibility: hidden;
+    font-size: 70px;
+    display: inline-block;
+    text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+}
+
+#text{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 580px; 
+    top: 1px;
+}
+
+#input{
+    position: absolute;
+    left: 575px;
+    top: 45px;
+}
+
+#button{
+    position: absolute;
+    left: 635px;
+    top: 70px;
+}
